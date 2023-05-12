@@ -9,7 +9,8 @@
 <body>
     <?php 
     $str = "Certaines choses changent, et d'autres ne changeront jamais.";
-    $array = [];
+    $array = []; //Création d'un tableau
+    //Compte le nombre de caractères dans la string
     $i=0;
     while (@$str[$i] != '') {
       $i++;

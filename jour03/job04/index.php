@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    // Je calcule le nombre de caractères dans le string et je l'affiche
     $str = "Dans l'espace, personne ne vous entend crier";
     $i=0;
     while (@$str[$i] != '') {

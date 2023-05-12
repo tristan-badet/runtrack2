@@ -8,11 +8,13 @@
 </head>
 <body>
     <?php
+    //On calcule le nombre de caractères dans la string
     $str = "Les choses que l'on possede finissent par nous posseder";
     $i=0;
     while (@$str[$i] != '') {
       $i++;
     }
+    //On remonte la string à partir de la fin et on echo en partant du dernier index à partir du nombre de caractères
     for($x = $i; $x>=0; $x--) {
         echo @$str[$x];
     }
